@@ -1,33 +1,25 @@
+# Classificador de Nível de Herói
 
-Instruções para entrega
-# 1️⃣ Desafio Classificador de nível de Herói
+**Classificador de Nível de Herói** é um sistema simples desenvolvido para classificar heróis de acordo com seus atributos e habilidades. O sistema usa uma pontuação para determinar o nível do herói, ajudando a organizar e comparar diferentes personagens em um jogo ou história de fantasia.
 
-**O Que deve ser utilizado**
+## Funcionalidades
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
+- **Classificação de heróis**: O sistema permite classificar heróis de acordo com suas habilidades e atributos como força, inteligência e agilidade.
+- **Determinação do nível**: Com base nos atributos, o herói recebe um nível de classificação, como "Iniciante", "Médio", "Avançado", etc.
+- **Exibição de resultados**: O nível do herói é exibido após a classificação ser realizada.
+- **Interface simples**: A aplicação apresenta uma interface simples e clara para que o usuário possa inserir os dados do herói e obter a classificação.
 
-## Objetivo
+## Tecnologias Utilizadas
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+- **JavaScript**: Para implementar a lógica de classificação e interatividade da interface.
+- **HTML**: Para estruturação da página onde os dados dos heróis são inseridos.
+- **CSS**: Para estilização e design da interface, tornando a experiência do usuário mais agradável.
 
-Se XP for menor do que 1.000 = Ferro
-Se XP for entre 1.001 e 2.000 = Bronze
-Se XP for entre 2.001 e 5.000 = Prata
-Se XP for entre 5.001 e 7.000 = Ouro
-Se XP for entre 7.001 e 8.000 = Platina
-Se XP for entre 8.001 e 9.000 = Ascendente
-Se XP for entre 9.001 e 10.000= Imortal
-Se XP for maior ou igual a 10.001 = Radiante
+## Estrutura do Projeto
 
-## Saída
+A estrutura do projeto é organizada da seguinte forma:
 
-Ao final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**"
-
- 
- 
- 
-Bons estudos 😉
+- **index.html**: Página principal da aplicação onde o usuário pode inserir os dados do herói.
+- **styles.css**: Arquivo de estilos para a interface da aplicação.
+- **app.js**: Contém a lógica para calcular o nível do herói com base em seus atributos.
+- **data.js** (opcional): Pode ser utilizado para armazenar dados de heróis ou atributos padrão.
